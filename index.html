@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>test</title>
+</head>
+<body>
+  <div>I'm 80% confident that I will live at least <input type="number" id="q_1_80">. <span id="a_1_80"></span> more years.</div>
+  <div>I'm 95% confident that I will live at least <input type="number" id="q_1_95">. <span id="a_1_95"></span> more years.</div>
+  <div>I'm 99% confident that I will live at least <input type="number" id="q_1_99">. <span id="a_1_99"></span> more years.</div>
+  <div id="a_1"></div>
+  
+  <br>
+  <br>
+  
+  <div>I'm 80% confident that the next decade will feature fewer than <input type="number" id="q_2_80"> human deaths from nuclear weapons. <span id="a_2_80"></span></div>
+  <div>I'm 95% confident that the next decade will feature fewer than <input type="number" id="q_2_95"> human deaths from nuclear weapons. <span id="a_2_95"></span></div>
+  <div>I'm 99% confident that the next decade will feature fewer than <input type="number" id="q_2_99"> human deaths from nuclear weapons. <span id="a_2_99"></span></div>
+  <div id="a_2"></div>
+  
+  <br>
+  <br>
+  
+  <div>I'm 80% confident that the world population in 2100 will be more than <input type="number" id="q_3_80">. <span id="a_3_80"></span></div>
+  <div>I'm 95% confident that the world population in 2100 will be more than <input type="number" id="q_3_95">. <span id="a_3_95"></span></div>
+  <div>I'm 99% confident that the world population in 2100 will be more than <input type="number" id="q_3_99">. <span id="a_3_99"></span></div>
+  <div id="a_3"></div>
+  
+  <br>
+  <br>
+  
+  <div><button onclick="check()">Check</button></div>
+  
+  <br>
+  <br>
+  
+  <div id="eval"></div>
+  
+<script id="jsbin-javascript">
+
+function check(){
+ 
+ document.getElementById("eval").innerHTML = "If you're lucky, you'll eventually be able to judge those predictions."
+ 
+}
+
+</script>
+</body>
+</html>
